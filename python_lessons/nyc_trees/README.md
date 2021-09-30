@@ -1,7 +1,7 @@
 ## NYC Trees
 In this lesson you'll explore data visualization, using data from the 1995 New York City Tree census. 
 
-The data file ```nyc_1995_trees.csv``` is a random sample of the original census results file and includes approximately 5000 entries (1% of the original census data). 
+The data file ```nyc_1995_trees.csv``` is a random sample of the original census results file and includes approximately 5000 entries (this corresponds to about 1% of the original census data). 
 
 Here are some things you can explore with this data: 
 * Python modules: pandas (for interacting with the .csv data and using dataframes), numpy (handy array operations), and matplotlib (for plotting).
