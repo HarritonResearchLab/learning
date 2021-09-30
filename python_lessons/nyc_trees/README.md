@@ -9,6 +9,6 @@ Here are some things you can explore with this data:
 * Statistics: is the mean number of trees in each borough significantly different to the mean number of trees in each borough? Is the species distribution significantly different between the boroughs? 
 
 Tips: 
-* If relative paths are troublesome, accessing the raw .csv data file is handy (click view raw on GitHub)
+* If relative paths are troublesome, accessing the raw .csv data file is handy (click the "raw" option on GitHub and use that link as the data path). 
 
 Happy coding!
