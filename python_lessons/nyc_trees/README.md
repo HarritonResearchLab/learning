@@ -10,5 +10,6 @@ Here are some things you can explore with this data:
 
 Tips: 
 * If relative paths are troublesome, accessing the raw .csv data file is handy (click the "raw" option on GitHub and use that link as the data path). 
+* Use the documentation for each module!
 
 Happy coding!
