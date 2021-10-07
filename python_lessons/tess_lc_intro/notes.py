@@ -22,6 +22,7 @@ print(period)
 #new_b = np.mod(lc[0], T) / T;
 
 # fold light curve
+
 phased_dates = np.mod(dates, period)/period
 
 plt.scatter(phased_dates, fluxes, color='black')
