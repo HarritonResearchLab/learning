@@ -13,7 +13,7 @@ ls = LombScargle(mjd, mag)
 frequencies, powers = ls.autopower(minimum_frequency=0.05, maximum_frequency=0.5)
 periods = 1/frequencies
 ```
-* Setting ```minimum_frequency=0.05``` and ```maximum_frequency=0.5``` will restrict your search space between periods of two and fifty days (as period = 1/frequency, the maximum frequency 0.5 is the shortest period $1/0.5=2). 
+* Setting ```minimum_frequency=0.05``` and ```maximum_frequency=0.5``` will restrict your search space between periods of two and fifty days (as period = 1/frequency, the maximum frequency 0.5 is the shortest period 1/0.5=2). 
 * You want to focus on the period with the highest power for each light curve, and (as mentioned), for the purposes of this excercise only consider a period with power >0.5 to be significant. 
 * Note that since lower values are brighter in the magnitude system, you'll want to invert the y-axis of your light curve plot. 
 * You can save plots in matplotlib with ```plt.savefig()```
