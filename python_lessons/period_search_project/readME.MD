@@ -17,7 +17,7 @@ periods = 1/frequencies
 * You want to focus on the period with the highest power for each light curve, and (as mentioned), for the purposes of this excercise only consider a period with power >0.5 to be significant. 
 * Note that since lower values are brighter in the magnitude system, you'll want to invert the y-axis of your light curve plot. 
 * You can save plots in matplotlib with ```plt.savefig()```
-
+* Get phase-folded dates with this formula: ```phased_dates = np.mod(dates, period)/period``` and plot ```phased_dates``` versus ```mags```. 
 
 ## Example Outputs
 * Phase-folded light curve:  
