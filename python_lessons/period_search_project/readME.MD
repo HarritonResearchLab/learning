@@ -7,7 +7,7 @@
 * Once you're done, please make a new folder in the ```./solutions``` directory of this project and put your code and plots in it so we can practice using GitHub. 
 
 ## Code Hints
-* Run the Lomb-Scargle Algorithm like this (after extracting the ```mjd``` and ```mag``` arrays from the .csv file and importing ```LombScargle``` with ```from astropy.timeseries import LombScargle```): 
+* Run the Lomb-Scargle Algorithm like this (after extracting the ```mjd``` and ```mag``` arrays from the ```_r.csv``` file and importing ```LombScargle``` with ```from astropy.timeseries import LombScargle```): 
 ```python
 ls = LombScargle(mjd, mag)
 frequencies, powers = ls.autopower(minimum_frequency=0.05, maximum_frequency=0.5)
